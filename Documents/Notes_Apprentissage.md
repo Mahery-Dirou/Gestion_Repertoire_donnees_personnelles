@@ -14,14 +14,6 @@ Les commandes utilisées sont:
 	- cat, head, tail: lire le contenu d'un fichier.
 	- nano/vim: éditer un fichier
 
-| Fonction                           | Commande | Description |
-|------------------------------------|----------|-------------|
-|                                    | ls       |             |
-| Naviguer et vérifier l'emplacement | cd       |             |
-|                                    | pwd      |             |
-|------------------------------------|----------|-------------|
-|                                    | mkdir    |             |
-|                                    | touch    |             |
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
     <tr>
@@ -32,67 +24,69 @@ Les commandes utilisées sont:
   </thead>
   <tbody>
     <tr>
-      <td>Naviguer et vérifier l’emplacement</td>
+      <td rowspan="3">Naviguer et vérifier l’emplacement</td>
       <td>ls</td>
       <td>Lister les fichiers</td>
     </tr>
     <tr>
-      <td></td>
       <td>cd</td>
       <td>Changer de dossier</td>
     </tr>
     <tr>
-      <td></td>
       <td>pwd</td>
       <td>Afficher le chemin actuel</td>
     </tr>
+
     <tr>
       <td>Créer des sous-dossiers</td>
       <td>mkdir</td>
       <td>Créer un ou plusieurs dossiers</td>
     </tr>
+
     <tr>
       <td>Créer un fichier vide</td>
       <td>touch</td>
       <td>Créer un fichier vide</td>
     </tr>
+
     <tr>
       <td>Copier un fichier ou dossier</td>
       <td>cp</td>
       <td>Copier un fichier ou un dossier</td>
     </tr>
+
     <tr>
       <td>Déplacer ou renommer un fichier/dossier</td>
       <td>mv</td>
       <td>Déplacer ou renommer un fichier ou dossier</td>
     </tr>
+
     <tr>
       <td>Supprimer un fichier</td>
       <td>rm</td>
       <td>Supprimer un fichier</td>
     </tr>
+
     <tr>
-      <td>Lire le contenu d’un fichier</td>
+      <td rowspan="3">Lire le contenu d’un fichier</td>
       <td>cat</td>
       <td>Afficher tout le contenu</td>
     </tr>
     <tr>
-      <td></td>
       <td>head</td>
       <td>Afficher les premières lignes</td>
     </tr>
     <tr>
-      <td></td>
       <td>tail</td>
       <td>Afficher les dernières lignes</td>
     </tr>
+
     <tr>
-      <td>Éditer un fichier texte</td>
+      <td rowspan="2">Éditer un fichier texte</td>
       <td>nano</td>
       <td>Ouvrir un éditeur de texte dans le terminal</td>
     </tr>
     <tr>
-      <td></td>
       <td>vim</td>
       <td>Ouvrir un éditeur de texte dans le terminal</td>
     </tr>
